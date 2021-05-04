@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Josefin+Slab&display=swap');
+
+html,
+body {
+  height: 90%;
+  margin: 0;
+  padding: 0;
+}
+
+.mySlides {
+  width: 50%;
+}
+
+#description-show {
+  line-height: 1.5;
+}
+
+.show-heading {
+  margin: .2rem 0 .5rem 0;
+}
+
+#map {
+  height: 100%;
+}
+
+/*** infowindow ***/
+
+.mySlides.confirmInfoWindow {
+  height: 15rem;
+  width: auto;
+}
+
+.gm-style-iw {
+  font: 10rem 'Josefin Slab', Times, serif;
+}
+
+#guest-IW {
+  display: grid;
+  grid-template-columns: 1fr 20px 1fr;
+  grid-template-rows: 25px .3fr .3fr .3fr .3fr;
+}
+
+#item-1-guest {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin-bottom: .1rem;
+}
+
+#item-2-guest {
+  grid-column: 1/2;
+  grid-row: 2/6;
+
+}
+
+#item-2-guest > img {
+  left: 50%;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#item-3-guest {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+#item-4-guest {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+#item-5-guest {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+#item-6-guest {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+
+#item-3-guest > .mush-head {
+  margin-top: 0;
+}
+
+#guest-IW > div > span {
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.mush-head {
+  font-size: 1.2rem;
+  margin: .5rem 0;
+}
